@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - ci/github-actions
+      - docker-setup
 
 jobs:
   say-hello:
@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Checar código
         uses: actions/checkout@v3
-      
+
       - name: Dizer oi
         run: echo "Olá! Um push foi feito para a branch!"
