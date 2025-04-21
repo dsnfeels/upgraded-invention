@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - sua-branch-aqui # coloque o nome real da branch que criou
+      - docker-setup
 
 jobs:
   say-hello:
