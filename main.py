@@ -23,7 +23,7 @@ def criar():
     tarefas = carregar_tarefas()
     tarefas.append(tarefa)
     salvar_tarefas(tarefas)
-    print("Tarefa adicionada!")
+    print("Tarefa adicionadaaa!")
 
 def atualizar():
     listar()
