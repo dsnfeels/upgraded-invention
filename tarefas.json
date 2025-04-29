@@ -1,0 +1,19 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+      "--disable=unused-function", 
+      "--disable=missing-function-docstring", 
+      "--disable=missing-module-docstring" 
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": [
+      "-v",
+      "-s",
+      "./",
+      "-p",
+      "test_*.py"
+    ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true
+  }
+  
