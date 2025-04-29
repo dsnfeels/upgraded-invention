@@ -23,9 +23,7 @@ def criar():
     tarefas = carregar_tarefas()
     tarefas.append(tarefa)
     salvar_tarefas(tarefas)
-    ci/github-actions
     print("Tarefa adicionada!")
-     main
 
 def atualizar():
     listar()
